@@ -212,19 +212,6 @@ func controle(n1 *Node, n2 *Node, n3 *Node, n4 *Node) {
 	}
 }
 
-func disparador(n1 *Node, n2 *Node, n3 *Node, n4 *Node) {
-	// for i := 0; i < 20; i++ {
-	// 	chans[liderIndex] <- Message{ tipo: 0, numeroMsg: i }
-	// }
-	// n1.isEnabled = false
-	// nodesAtivos = nodesAtivos - 1
-	// chans[liderIndex] <- Message{ tipo: 0, numeroMsg: 20 }
-
-	// for i := 0; i < 20; i++ {
-	// 	chans[liderIndex] <- Message{ tipo: 0, numeroMsg: i + 21 }
-	// }
-}
-
 func main() {
 	wg.Add(1)
 
