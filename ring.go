@@ -106,7 +106,7 @@ func (n *Node) run() {
 							} else {
 								fmt.Printf("Mensagem ELEICAO %d, %d \n", message.iniciadorEleicao, n.id)
 								if message.iniciadorEleicao == n.id {
-									fmt.Printf("Mensagem de eleicou circulou o anel\n")
+									fmt.Printf("Mensagem de eleição circulou o anel\n")
 
 									var novoLider = 0
 
